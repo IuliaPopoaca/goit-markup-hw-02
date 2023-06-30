@@ -15,6 +15,7 @@ width: 1600px;
 height: 2348px;
 top: -3267px;
 left: -3897px;
+padding-left: 40px;
 
 }
 
@@ -264,6 +265,7 @@ letter-spacing: 0.96px;
  background-color: #FFFFFF;
  width: 1600px;
  height: 2348px;
+ padding-left: 100px;
 }
 
 .details {
