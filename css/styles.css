@@ -5,17 +5,26 @@
     --text-large: 44px;
     --text-normal: 16px;
     --text-small: 14px;
+    --text-font-family: 'Roboto', sans-serif;
     
 }
 
 body{
-font-family: 'Roboto', sans-serif;
+font-family: var(--text-font-family)
 width: 1600px;
 height: 2348px;
 width: 1600px;
 height: 2348px;
 top: -3267px;
 left: -3897px;
+}
+
+h1, h2, h3, h4 , h5 , h6 , p{
+font-family: var(--text-font-family);
+}
+
+ul{
+    list-style-type: none;
 }
 
 .container{
@@ -184,8 +193,8 @@ left: 215px;
 h5{
 color: #212121;
 font-size: 14px;
-font-family: Roboto;
 font-weight: 700;
+margin-top: 65px;
 }
 
 .details p {
@@ -199,7 +208,8 @@ display: flex;
 width: 270px;
 height: 75px;
 flex-direction: column;
-padding-right: 30px;
+justify-content: space-around;
+
 }
 
 /* What we do section */
@@ -213,6 +223,7 @@ font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03rem;
 color: #212121;
+margin-bottom: 30px;
 }
 
 .images-what-we-do{
@@ -221,12 +232,12 @@ width: 1100px;
 height: 386px;
 left: 215px;
 top: 969px;
+
 }
 
 .images-what-we-do ul {
 display: flex ;
 justify-content: space-evenly;
-list-style-type: none;
 }
 
 .first-img, .second-img {
@@ -261,7 +272,6 @@ width: 100%;
 }
 
 .our-team-section ul{
-list-style-type: none;
 display: flex;
 justify-content: space-evenly;
 margin-top: 50px;
@@ -330,7 +340,6 @@ margin-top: 60px;
 }
 
 .footer-section ul{
-list-style-type: none;
 margin-left: 176px;
 }
 
@@ -387,7 +396,6 @@ margin-top: -70px;
 }
 
 .all-buttons ul {
-    list-style-type: none;
     margin-top: 94px;
     display: flex;
 }
@@ -468,7 +476,6 @@ background: #FFF;
 }
 
 .images-section ul{
-list-style-type: none;
 margin-left: 188px;
 margin-top: 180px;
 }
@@ -511,7 +518,6 @@ margin-left: 20px;
 
 /* Footer Portfolio Page */
 .footer-portfolio ul{
-list-style-type: none;
 margin-left: 176px;
 }
 
