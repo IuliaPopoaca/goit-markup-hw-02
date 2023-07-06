@@ -5,6 +5,7 @@
     --text-large: 44px;
     --text-normal: 16px;
     --text-small: 14px;
+    
 }
 
 body{
@@ -15,6 +16,10 @@ width: 1600px;
 height: 2348px;
 top: -3267px;
 left: -3897px;
+}
+
+.container{
+    width: 1200px;
 }
 
 /*  Studio Page/Header Section */
